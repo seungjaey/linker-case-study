@@ -1,0 +1,1057 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+
+<head>
+    <base href="https://proxy.link.app/">
+    <meta name="referrer" content="origin">
+    <link rel="canonical" href="https://proxy.link.app/381633953883/goods.kurly.it/pmL1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+    <link rel="shortcut icon" href="//www.gstatic.com/mobilesdk/160503_mobilesdk/logo/1x/firebase_64dp.png">
+    <script data-id="_gd" nonce="PmDa1PXcF3bMoCzLPNjgkw">
+        'use strict';
+        window.WIZ_global_data = {
+            "DpimGf" : false,
+            "EP1ykd" : ["/_/*", "/accounts/*"],
+            "FdrFJe" : "378316693068957486",
+            "Im6cmf" : "/_/DurableDeepLinkUi",
+            "LVIXXb" : 1,
+            "LoQv7e" : false,
+            "MT7f9b" : [],
+            "QrtxK" : "",
+            "S06Grb" : "",
+            "S6lZl" : 0,
+            "TSDtV" : '%.@.[[null,null,"CAMSGh0f7tds4k6VjYcSkMOYBqTJAra5BJOQBOth"]]]',
+            "Vvafkd" : false,
+            "cfb2h" : "boq_durabledeeplinkserver_20230717.07_p0",
+            "eNnkwf" : "",
+            "eptZe" : "/_/DurableDeepLinkUi/",
+            "fPDxwd" : [1763433, 1772879, 45814370, 48428154, 48520094, 48577232, 48629349, 48642514],
+            "gGcLoe" : false,
+            "nQyAE" : {
+                "GkrBt" : "false"
+            },
+            "oxN3nb" : {
+                1 : false
+            },
+            "qwAQke" : "DurableDeepLinkUi",
+            "qymVe" : "",
+            "rtQCxc" : -540,
+            "w2btAe" : '%.@.null,null,"",false,null,null,true,false]',
+            "y2FhP" : "prod",
+            "zChJod" : "%.@.true]"
+        };
+    </script>
+    <script nonce="PmDa1PXcF3bMoCzLPNjgkw">
+        'use strict';
+        (function() {
+            /**
+             * @return {?}
+             */
+            function push() {
+                return perf && perf.now ? perf.now() : (new Date).getTime();
+            }
+            /**
+             * @param {string} name
+             * @return {?}
+             */
+            function create(name) {
+                if (perf && perf.now && perf.mark) {
+                    var soundObj = perf.mark(name);
+                    if (soundObj) {
+                        return soundObj.startTime;
+                    }
+                    if (perf.getEntriesByName && (name = perf.getEntriesByName(name).pop())) {
+                        return name.startTime;
+                    }
+                }
+                return push();
+            }
+            /** @type {!Window} */
+            var win = window;
+            /** @type {(Performance|null)} */
+            var perf = win.performance;
+            var cc = push();
+            win.cc_latency_start_time = perf && perf.now ? 0 : perf && perf.timing && perf.timing.navigationStart ? perf.timing.navigationStart : cc;
+            /**
+             * @return {undefined}
+             */
+            win.onaft = function() {
+                create("aft");
+            };
+            /**
+             * @param {!Object} elm
+             * @return {?}
+             */
+            win._isLazyImage = function(elm) {
+                return elm.hasAttribute("data-src") || elm.hasAttribute("data-ils") || "lazy" === elm.getAttribute("loading");
+            };
+            /**
+             * @param {?} name
+             * @return {undefined}
+             */
+            win.l = function(name) {
+                /**
+                 * @param {string} stack
+                 * @return {undefined}
+                 */
+                function init(stack) {
+                    var partialState = {};
+                    partialState[stack] = push();
+                    win.cc_latency.push(partialState);
+                }
+                /**
+                 * @param {!Object} fn
+                 * @return {?}
+                 */
+                function get(fn) {
+                    var a = create("iml");
+                    fn.setAttribute("data-iml", a);
+                    return a;
+                }
+                win.cc_aid = name;
+                win.iml_start = win.cc_latency_start_time;
+                /** @type {number} */
+                win.css_size = 0;
+                /** @type {!Array} */
+                win.cc_latency = [];
+                /** @type {function(string): undefined} */
+                win.ccTick = init;
+                /**
+                 * @return {undefined}
+                 */
+                win.onJsLoad = function() {
+                    init("jsl");
+                };
+                /**
+                 * @return {undefined}
+                 */
+                win.onCssLoad = function() {
+                    init("cssl");
+                };
+                /**
+                 * @param {!Object} doc
+                 * @param {!Object} x
+                 * @return {?}
+                 */
+                win._isVisible = function(doc, x) {
+                    if (!x || "none" == x.style.display) {
+                        return false;
+                    }
+                    var view = doc.defaultView;
+                    if (view && view.getComputedStyle && (view = view.getComputedStyle(x), "0px" == view.height || "0px" == view.width || "hidden" == view.visibility)) {
+                        return false;
+                    }
+                    if (!x.getBoundingClientRect) {
+                        return true;
+                    }
+                    var box = x.getBoundingClientRect();
+                    x = box.left + win.pageXOffset;
+                    view = box.top + win.pageYOffset;
+                    if (0 > view + box.height || 0 > x + box.width || 0 >= box.height || 0 >= box.width) {
+                        return false;
+                    }
+                    doc = doc.documentElement;
+                    return view <= (win.innerHeight || doc.clientHeight) && x <= (win.innerWidth || doc.clientWidth);
+                };
+                /** @type {function(!Object): ?} */
+                win._recordImlEl = get;
+                document.documentElement.addEventListener("load", function(a) {
+                    /** @type {(EventTarget|null)} */
+                    a = a.target;
+                    var b;
+                    if (!("IMG" != a.tagName || a.hasAttribute("data-iid") || win._isLazyImage(a) || a.hasAttribute("data-noaft"))) {
+                        b = get(a);
+                    }
+                    if (win.aft_counter && (a = win.aft_counter.indexOf(a), -1 !== a && (a = 1 === win.aft_counter.splice(a, 1).length, 0 === win.aft_counter.length && a && b))) {
+                        win.onaft(b);
+                    }
+                }, true);
+                /** @type {number} */
+                win.prt = -1;
+                /**
+                 * @return {undefined}
+                 */
+                win.wiz_tick = function() {
+                    var fn = create("prt");
+                    win.prt = fn;
+                };
+            };
+        }).call(this);
+        l("HfwOue");
+    </script>
+    <script nonce="PmDa1PXcF3bMoCzLPNjgkw">
+        'use strict';
+        /** @type {string} */
+        var _F_cssRowKey = "boq-devplatform.DurableDeepLinkUi.p4kmlh9AWOo.L.B1.O";
+        /** @type {string} */
+        var _F_combinedSignature = "ADpVLP5Vs93j6LjTBdTXRXQIm4dxDoGN0Q";
+        /**
+         * @param {?} canCreateDiscussions
+         * @return {?}
+         */
+        function _DumpException(canCreateDiscussions) {
+            throw canCreateDiscussions;
+        };
+    </script>
+    <script nonce="PmDa1PXcF3bMoCzLPNjgkw">
+        onCssLoad();
+    </script>
+    <script nonce="PmDa1PXcF3bMoCzLPNjgkw">
+        'use strict';
+        (function() {
+            /**
+             * @return {?}
+             */
+            function d() {
+                /** @type {!Array<string>} */
+                var items = row;
+                /** @type {number} */
+                var i = 0;
+                return function() {
+                    return i < items.length ? {
+                        done : false,
+                        value : items[i++]
+                    } : {
+                        done : true
+                    };
+                };
+            }
+            /**
+             * @param {!Object} b
+             * @param {!Object} c
+             * @return {?}
+             */
+            function contains(b, c) {
+                if (null === c) {
+                    return false;
+                }
+                if ("contains" in b && 1 == c.nodeType) {
+                    return b.contains(c);
+                }
+                if ("compareDocumentPosition" in b) {
+                    return b == c || !!(b.compareDocumentPosition(c) & 16);
+                }
+                for (; c && b != c;) {
+                    c = c.parentNode;
+                }
+                return c == b;
+            }
+            /**
+             * @param {!Object} id
+             * @param {!Function} c
+             * @return {?}
+             */
+            function generateBoundHandler(id, c) {
+                return function(event) {
+                    if (!event) {
+                        event = window.event;
+                    }
+                    return c.call(id, event);
+                };
+            }
+            /**
+             * @param {!Object} e
+             * @return {?}
+             */
+            function select(e) {
+                e = e.target || e.srcElement;
+                if (!e.getAttribute && e.parentNode) {
+                    e = e.parentNode;
+                }
+                return e;
+            }
+            /**
+             * @return {undefined}
+             */
+            function fa() {
+                /** @type {boolean} */
+                this._mouseEventsPrevented = true;
+            }
+            /**
+             * @param {string} g
+             * @return {undefined}
+             */
+            function Node(g) {
+                /** @type {string} */
+                this.g = g;
+                /** @type {!Array} */
+                this.h = [];
+            }
+            /**
+             * @return {undefined}
+             */
+            function run() {
+                /** @type {!Array} */
+                this.o = [];
+                /** @type {!Array} */
+                this.g = [];
+                /** @type {!Array} */
+                this.j = [];
+                this.m = {};
+                /** @type {null} */
+                this.h = null;
+                /** @type {!Array} */
+                this.l = [];
+            }
+            /**
+             * @param {string} s
+             * @return {?}
+             */
+            function trim(s) {
+                return String.prototype.trim ? s.trim() : s.replace(/^\s+/, "").replace(/\s+$/, "");
+            }
+            /**
+             * @param {!Object} data
+             * @param {!Object} target
+             * @return {?}
+             */
+            function handler(data, target) {
+                return function handler(event, doc) {
+                    doc = void 0 === doc ? true : doc;
+                    /** @type {!Object} */
+                    var e = target;
+                    if ("click" == e && (isMac && event.metaKey || !isMac && event.ctrlKey || 2 == event.which || null == event.which && 4 == event.button || event.shiftKey)) {
+                        /** @type {string} */
+                        e = "clickmod";
+                    } else {
+                        var ret = event.which || event.keyCode;
+                        if (!ret && event.key) {
+                            ret = keys[event.key];
+                        }
+                        if (da && 3 == ret) {
+                            /** @type {number} */
+                            ret = 13;
+                        }
+                        if (13 != ret && 32 != ret) {
+                            /** @type {boolean} */
+                            ret = false;
+                        } else {
+                            var node = select(event);
+                            var p;
+                            if (!(p = "keydown" != event.type || !!(!("getAttribute" in node) || (node.getAttribute("type") || node.tagName).toUpperCase() in exports || "BUTTON" == node.tagName.toUpperCase() || node.type && "FILE" == node.type.toUpperCase() || node.isContentEditable) || event.ctrlKey || event.shiftKey || event.altKey || event.metaKey || (node.getAttribute("type") || node.tagName).toUpperCase() in cursorNodes && 32 == ret)) {
+                                if (!(p = node.tagName in ignorables)) {
+                                    p = node.getAttributeNode("tabindex");
+                                    p = null != p && p.specified;
+                                }
+                                /** @type {boolean} */
+                                p = !(p && !node.disabled);
+                            }
+                            if (p) {
+                                /** @type {boolean} */
+                                ret = false;
+                            } else {
+                                p = (node.getAttribute("role") || node.type || node.tagName).toUpperCase();
+                                /** @type {boolean} */
+                                var elem = !(p in o) && 13 == ret;
+                                /** @type {boolean} */
+                                node = "INPUT" != node.tagName.toUpperCase() || !!node.type;
+                                /** @type {boolean} */
+                                ret = (0 == o[p] % ret || elem) && node;
+                            }
+                        }
+                        if (ret) {
+                            /** @type {string} */
+                            e = "clickkey";
+                        }
+                    }
+                    node = event.srcElement || event.target;
+                    ret = callback(e, event, node, "", null);
+                    var elem;
+                    var _ref;
+                    p = node;
+                    for (; p && p != this; p = p.__owner || ("#document-fragment" !== (null == (elem = p.parentNode) ? void 0 : elem.nodeName) ? p.parentNode : null == (_ref = p.parentNode) ? void 0 : _ref.host)) {
+                        var obj = p;
+                        var opts = void 0;
+                        elem = obj;
+                        var t = e;
+                        /** @type {!Object} */
+                        var moduleName = event;
+                        var options = elem.__jsaction;
+                        if (!options) {
+                            var key;
+                            /** @type {null} */
+                            options = null;
+                            if ("getAttribute" in elem) {
+                                options = elem.getAttribute("jsaction");
+                            }
+                            if (key = options) {
+                                options = opts[key];
+                                if (!options) {
+                                    options = {};
+                                    var result = key.split(hash);
+                                    var end = result ? result.length : 0;
+                                    /** @type {number} */
+                                    var i = 0;
+                                    for (; i < end; i++) {
+                                        var key = result[i];
+                                        if (key) {
+                                            var index = key.indexOf(":");
+                                            /** @type {boolean} */
+                                            var value = -1 != index;
+                                            options[value ? trim(key.substr(0, index)) : hide] = value ? trim(key.substr(index + 1)) : key;
+                                        }
+                                    }
+                                    opts[key] = options;
+                                }
+                                elem.__jsaction = options;
+                            } else {
+                                options = cacheKeyTemplate;
+                                elem.__jsaction = options;
+                            }
+                        }
+                        if ("maybe_click" == t && options.click) {
+                            opts = t;
+                            /** @type {string} */
+                            t = "click";
+                        } else {
+                            if ("clickkey" == t) {
+                                /** @type {string} */
+                                t = "click";
+                            } else {
+                                if (!("click" != t || options.click)) {
+                                    /** @type {string} */
+                                    t = "clickonly";
+                                }
+                            }
+                        }
+                        opts = that._cfc && options.click ? that._cfc(elem, moduleName, options, t, opts) : {
+                            eventType : opts ? opts : t,
+                            action : options[t] || "",
+                            event : null,
+                            ignore : false
+                        };
+                        if (opts.ignore || opts.action) {
+                            break;
+                        }
+                    }
+                    if (opts) {
+                        ret = callback(opts.eventType, opts.event || event, node, opts.action || "", obj, ret.timeStamp);
+                    }
+                    if (ret && "touchend" == ret.eventType) {
+                        /** @type {function(): undefined} */
+                        ret.event._preventMouseEvents = fa;
+                    }
+                    if (opts && opts.action) {
+                        if (elem = "clickkey" == e) {
+                            elem = select(event);
+                            elem = (elem.type || elem.tagName).toUpperCase();
+                            if (!(elem = 32 == (event.which || event.keyCode) && "CHECKBOX" != elem)) {
+                                elem = select(event);
+                                _ref = elem.tagName.toUpperCase();
+                                node = (elem.getAttribute("role") || "").toUpperCase();
+                                /** @type {boolean} */
+                                elem = "BUTTON" === _ref || "BUTTON" === node ? true : !(elem.tagName.toUpperCase() in focusableElements) || "A" === _ref || "SELECT" === _ref || (elem.getAttribute("type") || elem.tagName).toUpperCase() in cursorNodes || (elem.getAttribute("type") || elem.tagName).toUpperCase() in exports ? false : true;
+                            }
+                        }
+                        if (elem) {
+                            if (event.preventDefault) {
+                                event.preventDefault();
+                            } else {
+                                /** @type {boolean} */
+                                event.returnValue = false;
+                            }
+                        }
+                        if ("mouseenter" == e || "mouseleave" == e || "pointerenter" == e || "pointerleave" == e) {
+                            if (elem = event.relatedTarget, !("mouseover" == event.type && "mouseenter" == e || "mouseout" == event.type && "mouseleave" == e || "pointerover" == event.type && "pointerenter" == e || "pointerout" == event.type && "pointerleave" == e) || elem && (elem === obj || contains(obj, elem))) {
+                                /** @type {string} */
+                                ret.action = "";
+                                /** @type {null} */
+                                ret.actionElement = null;
+                            } else {
+                                e = {};
+                                var key;
+                                for (key in event) {
+                                    if ("function" !== typeof event[key] && "srcElement" !== key && "target" !== key) {
+                                        e[key] = event[key];
+                                    }
+                                }
+                                /** @type {string} */
+                                e.type = "mouseover" == event.type ? "mouseenter" : "mouseout" == event.type ? "mouseleave" : "pointerover" == event.type ? "pointerenter" : "pointerleave";
+                                e.target = e.srcElement = obj;
+                                /** @type {boolean} */
+                                e.bubbles = false;
+                                ret.event = e;
+                                ret.targetElement = obj;
+                            }
+                        }
+                    } else {
+                        /** @type {string} */
+                        ret.action = "";
+                        /** @type {null} */
+                        ret.actionElement = null;
+                    }
+                    obj = ret;
+                    if (data.h && !obj.event.a11ysgd) {
+                        key = callback(obj.eventType, obj.event, obj.targetElement, obj.action, obj.actionElement, obj.timeStamp);
+                        if ("clickonly" == key.eventType) {
+                            /** @type {string} */
+                            key.eventType = "click";
+                        }
+                        data.h(key, true);
+                    }
+                    if (obj.actionElement) {
+                        if (data.h) {
+                            if (!obj.actionElement || "A" != obj.actionElement.tagName || "click" != obj.eventType && "clickmod" != obj.eventType || (event.preventDefault ? event.preventDefault() : event.returnValue = false), (event = data.h(obj)) && doc) {
+                                handler.call(this, event, false);
+                                return;
+                            }
+                        } else {
+                            if ((doc = global.document) && !doc.createEvent && doc.createEventObject) {
+                                try {
+                                    var eventName = doc.createEventObject(event);
+                                } catch (ua) {
+                                    /** @type {!Object} */
+                                    eventName = event;
+                                }
+                            } else {
+                                /** @type {!Object} */
+                                eventName = event;
+                            }
+                            obj.event = eventName;
+                            data.l.push(obj);
+                        }
+                        if (that._aeh) {
+                            that._aeh(obj);
+                        }
+                    }
+                };
+            }
+            /**
+             * @param {string} message
+             * @param {!Object} event
+             * @param {!Object} element
+             * @param {string} d
+             * @param {string} target
+             * @param {number} total
+             * @return {?}
+             */
+            function callback(message, event, element, d, target, total) {
+                return {
+                    eventType : message,
+                    event : event,
+                    targetElement : element,
+                    action : d,
+                    actionElement : target,
+                    timeStamp : total || Date.now()
+                };
+            }
+            /**
+             * @param {!Object} _
+             * @param {string} s
+             * @return {?}
+             */
+            function init(_, s) {
+                return function(target) {
+                    /** @type {!Object} */
+                    var type = _;
+                    /** @type {string} */
+                    var i = s;
+                    /** @type {boolean} */
+                    var useCapture = false;
+                    if ("mouseenter" == type) {
+                        /** @type {string} */
+                        type = "mouseover";
+                    } else {
+                        if ("mouseleave" == type) {
+                            /** @type {string} */
+                            type = "mouseout";
+                        } else {
+                            if ("pointerenter" == type) {
+                                /** @type {string} */
+                                type = "pointerover";
+                            } else {
+                                if ("pointerleave" == type) {
+                                    /** @type {string} */
+                                    type = "pointerout";
+                                }
+                            }
+                        }
+                    }
+                    if (target.addEventListener) {
+                        if ("focus" == type || "blur" == type || "error" == type || "load" == type || "toggle" == type) {
+                            /** @type {boolean} */
+                            useCapture = true;
+                        }
+                        target.addEventListener(type, i, useCapture);
+                    } else {
+                        if (target.attachEvent) {
+                            if ("focus" == type) {
+                                /** @type {string} */
+                                type = "focusin";
+                            } else {
+                                if ("blur" == type) {
+                                    /** @type {string} */
+                                    type = "focusout";
+                                }
+                            }
+                            i = generateBoundHandler(target, i);
+                            target.attachEvent("on" + type, i);
+                        }
+                    }
+                    return {
+                        eventType : type,
+                        i : i,
+                        capture : useCapture
+                    };
+                };
+            }
+            /**
+             * @param {!Object} obj
+             * @param {string} type
+             * @param {!Object} e
+             * @return {undefined}
+             */
+            function parse(obj, type, e) {
+                if (!obj.m.hasOwnProperty(type)) {
+                    var i = handler(obj, type);
+                    e = init(e || type, i);
+                    obj.m[type] = i;
+                    obj.o.push(e);
+                    /** @type {number} */
+                    i = 0;
+                    for (; i < obj.g.length; ++i) {
+                        var r = obj.g[i];
+                        r.h.push(e.call(null, r.g));
+                    }
+                    if ("click" == type) {
+                        parse(obj, "keydown");
+                    }
+                }
+            }
+            /**
+             * @param {!Object} item
+             * @param {number} value
+             * @return {?}
+             */
+            function fn(item, value) {
+                var ret = new Node(value);
+                a: {
+                    /** @type {number} */
+                    var index = 0;
+                    for (; index < item.g.length; index++) {
+                        if (filter(item.g[index].g, value)) {
+                            /** @type {boolean} */
+                            value = true;
+                            break a;
+                        }
+                    }
+                    /** @type {boolean} */
+                    value = false;
+                }
+                if (value) {
+                    return item.j.push(ret), ret;
+                }
+                convert(item, ret);
+                item.g.push(ret);
+                value = item.j.concat(item.g);
+                /** @type {!Array} */
+                index = [];
+                /** @type {!Array} */
+                var q = [];
+                /** @type {number} */
+                var i = 0;
+                for (; i < item.g.length; ++i) {
+                    var data = item.g[i];
+                    if (checkAuthUserReplied(data, value)) {
+                        index.push(data);
+                        /** @type {number} */
+                        var i = 0;
+                        for (; i < data.h.length; ++i) {
+                            var self = data.g;
+                            var item = data.h[i];
+                            if (self.removeEventListener) {
+                                self.removeEventListener(item.eventType, item.i, item.capture);
+                            } else {
+                                if (self.detachEvent) {
+                                    self.detachEvent("on" + item.eventType, item.i);
+                                }
+                            }
+                        }
+                        /** @type {!Array} */
+                        data.h = [];
+                    } else {
+                        q.push(data);
+                    }
+                }
+                /** @type {number} */
+                i = 0;
+                for (; i < item.j.length; ++i) {
+                    data = item.j[i];
+                    if (checkAuthUserReplied(data, value)) {
+                        index.push(data);
+                    } else {
+                        q.push(data);
+                        convert(item, data);
+                    }
+                }
+                /** @type {!Array} */
+                item.g = q;
+                /** @type {!Array} */
+                item.j = index;
+                return ret;
+            }
+            /**
+             * @param {!Object} b
+             * @param {!Object} ret
+             * @return {undefined}
+             */
+            function convert(b, ret) {
+                var i = ret.g;
+                if (sa) {
+                    /** @type {string} */
+                    i.style.cursor = "pointer";
+                }
+                /** @type {number} */
+                i = 0;
+                for (; i < b.o.length; ++i) {
+                    ret.h.push(b.o[i].call(null, ret.g));
+                }
+            }
+            /**
+             * @param {!Object} node
+             * @param {number} data
+             * @return {?}
+             */
+            function checkAuthUserReplied(node, data) {
+                /** @type {number} */
+                var i = 0;
+                for (; i < data.length; ++i) {
+                    if (data[i].g != node.g && filter(data[i].g, node.g)) {
+                        return true;
+                    }
+                }
+                return false;
+            }
+            /**
+             * @param {undefined} a
+             * @param {!Object} b
+             * @return {?}
+             */
+            function filter(a, b) {
+                for (; a != b && b.parentNode;) {
+                    b = b.parentNode;
+                }
+                return a == b;
+            }
+            var global = this || self;
+            var opts = {};
+            /** @type {boolean} */
+            var isMac = "undefined" != typeof navigator && /Macintosh/.test(navigator.userAgent);
+            /** @type {boolean} */
+            var da = "undefined" != typeof navigator && !/Opera/.test(navigator.userAgent) && /WebKit/.test(navigator.userAgent);
+            var ignorables = {
+                A : 1,
+                INPUT : 1,
+                TEXTAREA : 1,
+                SELECT : 1,
+                BUTTON : 1
+            };
+            var keys = {
+                Enter : 13,
+                " " : 32
+            };
+            var o = {
+                A : 13,
+                BUTTON : 0,
+                CHECKBOX : 32,
+                COMBOBOX : 13,
+                FILE : 0,
+                GRIDCELL : 13,
+                LINK : 13,
+                LISTBOX : 13,
+                MENU : 0,
+                MENUBAR : 0,
+                MENUITEM : 0,
+                MENUITEMCHECKBOX : 0,
+                MENUITEMRADIO : 0,
+                OPTION : 0,
+                RADIO : 32,
+                RADIOGROUP : 32,
+                RESET : 0,
+                SUBMIT : 0,
+                SWITCH : 32,
+                TAB : 0,
+                TREE : 13,
+                TREEITEM : 13
+            };
+            var cursorNodes = {
+                CHECKBOX : true,
+                FILE : true,
+                OPTION : true,
+                RADIO : true
+            };
+            var exports = {
+                COLOR : true,
+                DATE : true,
+                DATETIME : true,
+                "DATETIME-LOCAL" : true,
+                EMAIL : true,
+                MONTH : true,
+                NUMBER : true,
+                PASSWORD : true,
+                RANGE : true,
+                SEARCH : true,
+                TEL : true,
+                TEXT : true,
+                TEXTAREA : true,
+                TIME : true,
+                URL : true,
+                WEEK : true
+            };
+            var focusableElements = {
+                A : true,
+                AREA : true,
+                BUTTON : true,
+                DIALOG : true,
+                IMG : true,
+                INPUT : true,
+                LINK : true,
+                MENU : true,
+                OPTGROUP : true,
+                OPTION : true,
+                PROGRESS : true,
+                SELECT : true,
+                TEXTAREA : true
+            };
+            var that = global._jsa || {};
+            that._cfc = void 0;
+            that._aeh = void 0;
+            /**
+             * @param {?} i
+             * @return {?}
+             */
+            run.prototype.i = function(i) {
+                return this.m[i];
+            };
+            /** @type {boolean} */
+            var sa = "undefined" != typeof navigator && /iPhone|iPad|iPod/.test(navigator.userAgent);
+            /** @type {!RegExp} */
+            var hash = /\s*;\s*/;
+            /** @type {string} */
+            var hide = "click";
+            var cacheKeyTemplate = {};
+            /** @type {!Array<string>} */
+            var row = "click dblclick focus focusin blur error focusout keydown keyup keypress load mouseover mouseout mouseenter mouseleave submit toggle touchstart touchend touchmove touchcancel auxclick change compositionstart compositionupdate compositionend beforeinput input textinput copy cut paste mousedown mouseup wheel contextmenu dragover dragenter dragleave drop dragstart dragend pointerdown pointermove pointerup pointercancel pointerenter pointerleave pointerover pointerout gotpointercapture lostpointercapture ended loadedmetadata pagehide pageshow visibilitychange beforematch".split(" ");
+            if (!(row instanceof Array)) {
+                var node;
+                var mappedArray = "undefined" != typeof Symbol && Symbol.iterator && row[Symbol.iterator];
+                if (mappedArray) {
+                    node = mappedArray.call(row);
+                } else {
+                    if ("number" == typeof row.length) {
+                        node = {
+                            next : d()
+                        };
+                    } else {
+                        throw Error(String(row) + " is not an iterable or ArrayLike");
+                    }
+                }
+                var _s;
+                /** @type {!Array} */
+                var _arr = [];
+                for (; !(_s = node.next()).done;) {
+                    _arr.push(_s.value);
+                }
+            }
+            var i = function(e) {
+                return {
+                    trigger : function(event) {
+                        var on = e.i(event.type);
+                        if (!on) {
+                            parse(e, event.type);
+                            on = e.i(event.type);
+                        }
+                        var gripperElem = event.target || event.srcElement;
+                        if (on) {
+                            on.call(gripperElem.ownerDocument.documentElement, event);
+                        }
+                    },
+                    bind : function(g) {
+                        /** @type {number} */
+                        e.h = g;
+                        if (e.l) {
+                            if (0 < e.l.length) {
+                                g(e.l);
+                            }
+                            /** @type {null} */
+                            e.l = null;
+                        }
+                    }
+                };
+            }(function() {
+                /** @type {!Window} */
+                var win = window;
+                var val = new run;
+                var url = fn(val, win.document.documentElement);
+                row.forEach(function(cssProperty) {
+                    return parse(val, cssProperty);
+                });
+                var style;
+                var e;
+                if ("onwebkitanimationend" in win) {
+                    /** @type {string} */
+                    style = "webkitAnimationEnd";
+                }
+                parse(val, "animationend", style);
+                if ("onwebkittransitionend" in win) {
+                    /** @type {string} */
+                    e = "webkitTransitionEnd";
+                }
+                parse(val, "transitionend", e);
+                return {
+                    s : val,
+                    u : url
+                };
+            }().s);
+            /** @type {!Array} */
+            var tokens = ["BOQ_wizbind"];
+            /** @type {!Window} */
+            var obj = window || global;
+            if (!(tokens[0] in obj || "undefined" == typeof obj.execScript)) {
+                obj.execScript("var " + tokens[0]);
+            }
+            var m;
+            for (; tokens.length && (m = tokens.shift());) {
+                if (tokens.length || void 0 === i) {
+                    if (obj[m] && obj[m] !== Object.prototype[m]) {
+                        obj = obj[m];
+                    } else {
+                        obj = obj[m] = {};
+                    }
+                } else {
+                    obj[m] = i;
+                }
+            }
+        }).call(this);
+    </script>
+    <script noCollect
+            src="https://www.gstatic.com/_/mss/boq-devplatform/_/js/k=boq-devplatform.DurableDeepLinkUi.en_US.gHUfzEdraJ4.es5.O/am=wJwB/d=1/excm=_b,_tp,viewddl/ed=1/dg=0/wt=2/ujg=1/rs=ADpVLP7wkM3dOR2y9hKA0le0mYn77BNMDQ/m=_b,_tp"
+            defer id="base-js" nonce="PmDa1PXcF3bMoCzLPNjgkw"></script>
+    <script nonce="PmDa1PXcF3bMoCzLPNjgkw">
+        'use strict';
+        if (window.BOQ_loadedInitialJS) {
+            onJsLoad();
+        } else {
+            document.getElementById("base-js").addEventListener("load", onJsLoad, false);
+        }
+    </script>
+    <script nonce="PmDa1PXcF3bMoCzLPNjgkw">
+        window['_wjdc'] = function (d) {window['_wjdd'] = d};
+    </script>
+    <script nonce="PmDa1PXcF3bMoCzLPNjgkw">
+        'use strict';
+        /** @type {!Array} */
+        var AF_initDataKeys = [];
+        var AF_dataServiceRequests = {};
+        /** @type {!Array} */
+        var AF_initDataChunkQueue = [];
+        var AF_initDataCallback;
+        var AF_initDataInitializeCallback;
+        if (AF_initDataInitializeCallback) {
+            AF_initDataInitializeCallback(AF_initDataKeys, AF_initDataChunkQueue, AF_dataServiceRequests);
+        }
+        if (!AF_initDataCallback) {
+            /**
+             * @param {?} inWeb
+             * @return {undefined}
+             */
+            AF_initDataCallback = function(inWeb) {
+                AF_initDataChunkQueue.push(inWeb);
+            };
+        }
+    </script>
+</head>
+<div jscontroller="KjEEgd" jsaction="rcuQ6b:Q7Cnrc" data-desktop-link="https://goods.kurly.it/pmL1?_imcp=1"
+     data-iPad-link="https://goods.kurly.it/pmL1?_iipp=1"></div>
+<script nonce="PmDa1PXcF3bMoCzLPNjgkw">
+    'use strict';
+    (function() {
+        /**
+         * @param {!Object} a
+         * @return {undefined}
+         */
+        function hide(a) {
+            if (!child._isLazyImage(a) && !a.hasAttribute("data-noaft") && a.src) {
+                var b = (child._isVisible || function() {
+                })(child.document, a);
+                a.setAttribute("data-atf", b);
+                if (b) {
+                    if (!(-1 !== e.indexOf(a) || -1 !== d.indexOf(a) || a.complete)) {
+                        d.push(a);
+                    }
+                    if (a.hasAttribute("data-iml")) {
+                        /** @type {number} */
+                        a = Number(a.getAttribute("data-iml"));
+                        if (a > b) {
+                            /** @type {!Object} */
+                            b = a;
+                        }
+                    }
+                }
+            }
+        }
+        /** @type {!Window} */
+        var child = window;
+        /** @type {!Array} */
+        var d = [];
+        /** @type {!Array} */
+        child.aft_counter = d;
+        /** @type {!Array} */
+        var e = [];
+        /** @type {number} */
+        var b = 0;
+        /**
+         * @return {undefined}
+         */
+        child.initAft = function() {
+            /** @type {number} */
+            b = 0;
+            /** @type {!Array<?>} */
+            e = Array.prototype.slice.call(document.getElementsByTagName("img")).filter(function(a) {
+                return !!a.getAttribute("data-iml");
+            });
+            [].forEach.call(document.getElementsByTagName("img"), function(a) {
+                try {
+                    hide(a);
+                } catch (controlFlowAction) {
+                    throw controlFlowAction.message = a.hasAttribute("data-iid") ? controlFlowAction.message + "\nrecordIsAboveFold error for defer inlined image" : controlFlowAction.message + ("\nrecordIsAboveFold error for img element with <src: " + a.src + ">"), controlFlowAction;
+                }
+            });
+            if (0 === d.length) {
+                child.onaft(b);
+            }
+        };
+    }).call(this);
+    initAft();
+</script>
+<script id="_ij" nonce="PmDa1PXcF3bMoCzLPNjgkw">
+    'use strict';
+    /** @type {!Array} */
+    window.IJ_values = [[null, null, "", false, null, null, true, false], "0", "https://proxy.link.app/", null, "boq_durabledeeplinkserver_20230717.07_p0", "proxy.link.app", 0.0, "", "PmDa1PXcF3bMoCzLPNjgkw", "PS2fgEgiaSW8uTU-246Cnw", "DEFAULT", "", 2023.0, "https://proxy.link.app/381633953883/goods.kurly.it/pmL1", null, "ltr", false, "https://accounts.google.com/AccountChooser?continue=https://proxy.link.app/381633953883/goods.kurly.it/pmL1&hl=en-US", "https://accounts.google.com/ServiceLogin?hl=en-US&continue=https://proxy.link.app/381633953883/goods.kurly.it/pmL1",
+        "https://accounts.google.com/SignOutOptions?continue=https://proxy.link.app/381633953883/goods.kurly.it/pmL1", false, false, "en", "en-US", "en_US", "https://goto2.corp.google.com/mdtredirect?data_id_filter=proxy.link.app&system_name=durable-deep-link-server", null, null, "https://myaccount.google.com/privacypolicy?hl=en-US", false, "https://myaccount.google.com/termsofservice?hl=en-US", null, false, null];
+    if (window.IJ_valuesCb) {
+        window.IJ_valuesCb();
+    }
+</script>
+<script id="wiz_jd" nonce="PmDa1PXcF3bMoCzLPNjgkw">
+    'use strict';
+    if (window["_wjdc"]) {
+        const processEvaluatorsCallback = {};
+        window["_wjdc"](processEvaluatorsCallback);
+        delete window["_wjdc"];
+    };
+</script>
+<script aria-hidden="true" id="WIZ-footer" nonce="PmDa1PXcF3bMoCzLPNjgkw">
+    'use strict';
+    if (window.wiz_progress) {
+        window.wiz_progress();
+    }
+    if (window.stopScanForCss) {
+        window.stopScanForCss();
+    }
+    ccTick("bl");
+</script>
+</body>
+
+</html>
